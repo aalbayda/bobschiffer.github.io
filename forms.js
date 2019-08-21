@@ -26,7 +26,9 @@ const createForm = (structType) => {
                         <input class="btn btn-dark col-sm" type="button" value="Pop" id="btn-pop" onclick="pop()">
                     </div>
                     <div class="row" style="color: white; margin: 5%">
-                                            <p><em>A <strong>stack</strong> behaves like a physical stack of objects. Normally, adding an item to the stack means putting it on top, and taking from the stack means removing the item on top.</em></p>                    </div>
+                        <p><em>A <strong>stack</strong> behaves like a physical stack of objects. Adding an item to the stack means putting it on top, and taking from the stack means removing the item on top.</em></p>
+                        <p><a href="https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues" style="color:white"><strong>Learn more</strong></a></p>
+                    </div>
                 </div>
                 `;
         case "Queue":
@@ -39,6 +41,7 @@ const createForm = (structType) => {
                     </div>
                     <div class="row" style="color: white; margin: 5%">
                         <p><em>A <strong>queue</strong> works like an ATM queue. People who join the queue wait behind while the people in front get to withdraw and leave earlier.</em></p>
+                        <p><a href="https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues" style="color:white"><strong>Learn more</strong></a></p>
                     </div>
                 </div>
                 `;
