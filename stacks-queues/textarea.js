@@ -87,14 +87,17 @@ dequeue(queue);`;
 
 const textDequeue = () => {
     document.querySelector('textarea').innerHTML = 
-`void dequeue(QUEUE* queue) {
+`int dequeue(QUEUE* queue) {
     if (queue->length == 1) {
+        int data = queue->head->data;
         free(queue->head);
-        return;
+        return data;
     }
     NODE* temp = queue->head;
+    int data = temp->data;
     queue->head = queue->head->next;
     free(temp);
+    return data;
 }
 dequeue(queue);`;
 }
