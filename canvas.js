@@ -1,7 +1,7 @@
 // Initialize canvas
 let canvas = document.querySelector('canvas');
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight-200;
+canvas.height = window.innerHeight-250;
 let c = canvas.getContext('2d');
 
 /* CLASSES */
